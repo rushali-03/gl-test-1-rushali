@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+} 
+.box1{background: red;font-size: 30px;}
+.box2{background: green;font-size: 30px; align-self: flex-end; height: 50vh; margin-top: 50vh;}
+.box3{background: yellow;font-size: 30px;}
+.box4{background: brown;font-size: 30px;}
+.box5{background: orange; font-size: 30px;}
+.box6{background: purple;font-size: 40px;}
+.box7{background: black;font-size: 30px;}
+.box8{background: magenta;font-size: 30px;}
+.box9{background: silver;font-size: 30px; align-self: center; height: 50vh}
+.box10{background: teal;font-size: 30px;}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px black;
+}
